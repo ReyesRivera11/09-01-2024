@@ -1,0 +1,38 @@
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.foto-nombre{
+    position: absolute;
+    right: 40%;
+    top: 35%;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.superior{
+    background-color: rgb(194, 230, 236);
+    height: 50%;
+}
+.superior h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.inferior{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 50%;
+    padding-top: 100px;
+    background-color: rgb(152, 194, 223);
+}
+.inferior p{
+    font-size: 20px;
+    font-weight: 600;
+}
